@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Memory Game</h1>
+  <p class="subtitle">Let's test your memory Kfir 🦁</p>
+
+  <div class="scoreboard">
+    <p>Moves: <span id="moves">0</span></p>
+    <button id="resetBtn">🔄 Reset</button>
+  </div>
+
+  <div class="game-board" id="gameBoard">
+    <!-- 16 Cards (8 pairs) -->
+    <div class="card" data-card="🍕"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🍕</div></div></div>
+    <div class="card" data-card="🍕"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🍕</div></div></div>
+
+    <div class="card" data-card="🐶"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🐶</div></div></div>
+    <div class="card" data-card="🐶"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🐶</div></div></div>
+
+    <div class="card" data-card="🌈"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🌈</div></div></div>
+    <div class="card" data-card="🌈"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🌈</div></div></div>
+
+    <div class="card" data-card="🚀"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🚀</div></div></div>
+    <div class="card" data-card="🚀"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🚀</div></div></div>
+
+    <div class="card" data-card="🦄"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🦄</div></div></div>
+    <div class="card" data-card="🦄"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🦄</div></div></div>
+
+    <div class="card" data-card="🍩"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🍩</div></div></div>
+    <div class="card" data-card="🍩"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🍩</div></div></div>
+
+    <div class="card" data-card="🐱"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🐱</div></div></div>
+    <div class="card" data-card="🐱"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🐱</div></div></div>
+
+    <div class="card" data-card="🎈"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🎈</div></div></div>
+    <div class="card" data-card="🎈"><div class="card-inner"><div class="card-front">❓</div><div class="card-back">🎈</div></div></div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

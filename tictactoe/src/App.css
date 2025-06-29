@@ -1,0 +1,66 @@
+.main-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e48bd6, #e48bd6);
+  min-height: 100vh;
+  color: #6a616a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #0f172a;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.board {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 460px;
+}
+
+.victory-screen {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 3px solid #90ee90;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+  color: #333;
+  animation: pop 0.5s ease-in-out;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.restart-btn {
+  margin-top: 20px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-btn:hover {
+  background-color: #45a049;
+}
